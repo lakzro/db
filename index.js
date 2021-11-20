@@ -1,3 +1,4 @@
+//key : OTExMzMxODYxODExMzI3MDA2.YZf17w.U95vnjibpvpO0MpmPmGOrDDVLDw
 require('lib')
 const Discord = require('discord.js');
 const fs = require('fs');
@@ -11,13 +12,21 @@ bot.on("message", msg => {
     let messageArray = msg.content.split(' ')
     let cmd = messageArray[0].slice(prefix.length)
     let args = messageArray.slice(1)
+    
+    if (!msg.content.startsWith(prefix)) return;
+
     if (cmd == "ping") {
       msg.channel.send("pong");
     }
-    if (cmd == "nkmk") {
-        msg.channel.send("nkrbmk");
-      }
-    if (!msg.content.startsWith(prefix)) return;     
+    if (cmd == "rabi") {
+      msg.channel.send("💖💖",{
+        files:[
+          "./images/3.jpg"
+        ]
+      });
+    }
+
+   
   })
  
-bot.login("OTExMzMxODYxODExMzI3MDA2.YZf17w.mT1qLA8OKrXDGwzzeayqLqIDoB8");
+bot.login("OTExMzMxODYxODExMzI3MDA2.YZf17w.U95vnjibpvpO0MpmPmGOrDDVLDw");
