@@ -1,7 +1,6 @@
 {
   "name": "db",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,15 @@
     "discord.js": "^13.3.1",
     "g-i-s": "^2.1.6",
     "lib": "^4.3.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakzro/db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lakzro/db/issues"
+  },
+  "homepage": "https://github.com/lakzro/db#readme",
+  "description": ""
 }
