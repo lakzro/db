@@ -1,6 +1,6 @@
 # Bourguiba Discord bot
 
-## This a discord that gets a random picture of Habib Bourguiba
+## Discord that gets a random picture of Habib Bourguiba
 
 ### Usage :
 
