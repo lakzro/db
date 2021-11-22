@@ -6,6 +6,6 @@
 
 The prefix used to call the bot is "&"
 
-    # &Rabi 
+     &Rabi 
     
         Supposed to show you a picture of our lord and saviour.
